@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="user_data.php" method="POST">
+        <label>Name:</label>
+        <input type="text" name="name" placeholder="Enter your fullname" required><p></p>
+
+        <label>Email:</label>
+        <input type="email" name="email" placeholder="example@mail.com" required><p></p>
+
+        <label>DoB:</label>
+        <input type="date" name="dob" required><p></p>
+
+        <label>Gender:</label>
+
+        <label for="male">Male</label>
+        <input type="radio" name="gender" value="male" required>
+
+        <label for="female">Female</label>
+        <input type="radio" name="gender" value="female" required><p></p>
+
+        <label>Country:</label>
+        <input type="text" name="country" placeholder="Country" required><p></p>
+
+        <input type="submit" name="submit" value="Submit"><p></p>
+        
+    </form>
+</body>
+</html>
